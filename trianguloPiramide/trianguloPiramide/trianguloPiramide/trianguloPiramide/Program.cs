@@ -15,7 +15,7 @@ namespace MyApp
             // Loop para desenhar o triangulo
             while (i < linhas)
             {
-                
+
                 // Variavel que controla os espaços em branco
                 int espacos = linhas - i - 1;
 
