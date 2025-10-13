@@ -1,0 +1,21 @@
+﻿<Window x:Class="CalculadoraAtividade.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculadoraAtividade"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="campoEntrada" HorizontalAlignment="Left" Height="28" Margin="35,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" RenderTransformOrigin="0.294,0.716"/>
+        <Button x:Name="soma" Content="Somar" HorizontalAlignment="Left" Height="34" Margin="37,116,0,0" VerticalAlignment="Top" Width="87" Click="soma_Click"/>
+        <TextBox x:Name="textoConteudo" HorizontalAlignment="Left" Height="231" Margin="506,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242"/>
+        <Button x:Name="subtracao" Content="Subtração" HorizontalAlignment="Left" Height="34" Margin="129,116,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="1.161,0.678" Click="subtracao_Click"/>
+        <Button x:Name="multiplicacao" Content="Multiplicação" HorizontalAlignment="Left" Height="34" Margin="221,116,0,0" VerticalAlignment="Top" Width="87" Click="multiplicacao_Click"/>
+        <Button x:Name="botaoDiv" Content="Divisão" HorizontalAlignment="Left" Height="34" Margin="313,116,0,0" VerticalAlignment="Top" Width="87" Click="botaoDiv_Click"/>
+        <TextBox x:Name="textoResposta" HorizontalAlignment="Left" Height="28" Margin="35,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="363" RenderTransformOrigin="0.294,0.716"/>
+        <Button x:Name="botaoLimpar" Content="Limpar" HorizontalAlignment="Left" Margin="35,246,0,0" VerticalAlignment="Top" Height="28" Width="365" Click="botaoLimpar_Click"/>
+        <Button x:Name="botaoAdicina" Content="Adicionar" HorizontalAlignment="Left" Height="28" Margin="313,43,0,0" VerticalAlignment="Top" Width="87" Click="botaoAdicina_Click"/>
+
+    </Grid>
+</Window>
