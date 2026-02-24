@@ -17,7 +17,7 @@ namespace MyApp
             foreach (string produto in produtos)
             {
                 Console.WriteLine(produto);
-                
+
             }
             Console.WriteLine("-------------");
 
